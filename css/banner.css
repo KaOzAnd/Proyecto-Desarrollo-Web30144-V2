@@ -1,0 +1,160 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner img {
+    width: 100%;
+    height: 50%;
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+
+#banner h2 {
+    font-size: 30px;
+}
+
+#banner a {
+    display: block;
+    width: 100px;
+    color: #7cdee6;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+}
+
+#banner a:hover {
+    background: rgba(34, 230, 180, 0.2);
+}
+
+#bienvenidos {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#bienvenidos h4 {
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+#blog h3,
+h4 {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#blog .contenedor-blog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+    margin: 15px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 380px;
+    height: 100%;
+    max-height: 190px;
+}
+
+
+/*Galeria*/
+
+#blog2 h3 {
+    text-align: center;
+}
+
+#blog2 .contenedor-blog2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog2 article {
+    margin: 15px;
+}
+
+#blog2 img {
+    width: 100%;
+    max-width: 2800px;
+    height: 100%;
+    max-height: 1090px;
+}
+
+
+/*---------------------------------------------------*/
+
+
+/*AUDIOS*/
+
+.mp3 {
+    text-align: center;
+}
+
+
+/*VIDEOS*/
+
+.mp4 {
+    text-align: center;
+}
+
+#informacion {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#informacion .contenedor-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-mascota {
+    margin: 20px;
+}
+
+.info-mascota img {
+    width: 300px;
+    height: 275px;
+    border-radius: 60%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+footer .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.derechos-footer {
+    font-size: 20px;
+    text-align: center;
+}
+
+.redes-sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.redes-sociales a {
+    color: #333;
+    text-decoration: none;
+}
