@@ -98,6 +98,11 @@
     text-align: center;
 }
 
+audio {
+    width: 600px;
+    height: 54px;
+}
+
 
 /*VIDEOS*/
 
