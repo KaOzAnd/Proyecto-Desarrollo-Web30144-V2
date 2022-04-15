@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/modal.js"></script>
+    <title>MUNDO BIKERS</title>
+</head>
+
+<body>
+    <!-- Menu -->
+    <header>
+        <div class="contenedor">
+            <h1 class="fa fa-bicycle fa-3x"> MUNDO BIKERS</h1>
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" class="fa fa-bars fa-3x"></label>
+            <nav class="menu">
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas_secundarias/quienes_somos.html">Quienes somos</a>
+                <a href="../paginas_secundarias\galeria.html">Galeria</a>
+                <a href="">Blog</a>
+                <a href="">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Banner -->
+        <section id="banner">
+            <img src="../imagenes/contessa_signature_mtb_2 (2).jpg" alt="">
+            <div class="contenedor">
+                <h2>Tu sueños estan en el proximo puesto de montaña!!</h2>
+                <p>¿Cual es tu lugar favorito?</p>
+                <a href="#">Leer mas...</a>
+            </div>
+        </section>
+        <!--Ventana modal-->
+        <section class="Modal-position">
+            <div class="container">
+                <button class="btn" id="open_modal">Abrir Modal - Historia Mountain Bikes</button>
+                <div class="modal" id="modal">
+                    <div class="fondoModal" id="fondoModal"></div>
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="title-modal">Ventana Modal</div>
+                            <button class="btn-close-modal" id="close_modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Esto es un modal</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem placeat molestiae tenetur molestias! Dicta nam distinctio sunt temporibus? Voluptatem commodi, eveniet ea placeat deserunt quod!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="../js/modal.js"></script>
+        </section>
+        <!-- Galeria overlay-->
+        <section class="galeria">
+            <div class="galeria"></div><br>
+            <h1>Galeria Efecto Overlay</h1>
+            <div class="contenedor-imagenes">
+                <div class="imagen">
+                    <img src="../imagenes/MBK1.jpg" alt="">
+                    <div class="overlay">
+                        <h2>Suscribete</h2>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="../imagenes/MBK2.jpg" alt="">
+                    <div class="overlay">
+                        <h2>Suscribete</h2>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="../imagenes/MBK3.jpg" alt="">
+                    <div class="overlay">
+                        <h2>Suscribete</h2>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="../imagenes/MBK4.jpg" alt="">
+                    <div class="overlay">
+                        <h2>Suscribete</h2>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="../imagenes/MBK5.jpg" alt="">
+                    <div class="overlay">
+                        <h2>Suscribete</h2>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="../imagenes/MBK6.jpg" alt="">
+                    <div class="overlay">
+                        <h2>Suscribete</h2>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="../imagenes/MBK7.jpg" alt="">
+                    <div class="overlay">
+                        <h2>Suscribete</h2>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="../imagenes/MBK8.jpg" alt="">
+                    <div class="overlay">
+                        <h2>Suscribete</h2>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="../imagenes/MBK9.jpg" alt="">
+                    <div class="overlay">
+                        <h2>Suscribete</h2>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Audios y Videos -->
+        <section class="audio">
+            <div class="mp3">
+                <h4>Canciones recomendas por nuestros clientes</h4><br>
+                <h3>Jósean Log Chachachá</h3>
+                <audio src="../audios/y2mate.com - Jósean Log  Chachachá Lyric Video.mp3" controls></audio></div>
+
+        </section>
+        <section class="audio">
+            <div class="mp3">
+                <h3>Macaco Coincidir</h3>
+                <audio src="../audios/y2mate.com - Macaco  Coincidir Official Music Video.mp3" controls></audio></div>
+
+        </section>
+        <section class="video">
+            <div class="mp4">
+                <h4>Videos Grabados por Nuestros Clientes</h4>
+                <video src="../videos/y2mate.com - Mountain Biking the lower Whistler Bike Park_480p.mp4" controls></video>
+            </div>
+        </section>
+    </main>
+    <!-- Pie de Pagina-->
+    <footer>
+        <div class="footer-info">
+            <div class="redes-sociales"><br>
+                <a href="#" class="fa fa-twitter">&nbspTwitter</a>
+                <a href="#" class="fa fa-facebook">&nbspFacebook</a>
+                <a href="#" class="fa fa-instagram">&nbspInstagram</a>
+                <a href="#" class="fa fa-github">&nbspGitHub</a>
+                <p class="derechos-footer">DERECHOS RESERVADOS &copy; 2022 <br>Henry Andres Jurgensen Alzate <br>DESARROLLO WEB/30144</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
