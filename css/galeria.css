@@ -6,7 +6,9 @@
 
 .linea {
     border-top: 5px solid #0077C0;
-    margin-bottom: 40px;
+    height: 5px;
+    width: 100%;
+    display: inline-block;
 }
 
 .contenedor-imagenes {
