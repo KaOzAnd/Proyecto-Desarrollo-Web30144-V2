@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/calculadora.css">
+    <script src="../js/calculadora.js"></script>
+    <title>MUNDO BIKERS</title>
+</head>
+
+<body>
+    <!-- Menu -->
+    <header>
+        <div class="contenedor">
+            <h1 class="fa fa-bicycle fa-3x"> MUNDO BIKERS</h1>
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" class="fa fa-bars fa-3x"></label>
+            <nav class="menu">
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas_secundarias/quienes_somos.html">Quienes somos</a>
+                <a href="../paginas_secundarias/galeria.html">Galeria</a>
+                <a href="../paginas_secundarias/galeria2.html">Galeria #2</a>
+                <a href="../paginas_secundarias/galeria_slider.html">Galeria Silder</a>
+                <a href="../paginas_secundarias/calculadora.html">Calculadora</a>
+                <a href="">Blog</a>
+                <a href="">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Banner -->
+        <section id="banner">
+            <img src="../imagenes/contessa_signature_mtb_2 (2).jpg" alt="">
+            <div class="contenedor">
+                <h2>Tu sueños estan en el proximo puesto de montaña!!</h2>
+                <p>¿Cual es tu lugar favorito?</p>
+                <a href="#">Leer mas...</a>
+            </div>
+        </section>
+        <!-- Calculadora -->
+        <h1 class="titulo">CALCULADORA</h1>
+        <section class="calculadora">
+            <div class="calc">
+                <form name="calc">
+                    <div class="title">
+                        <label>Ingrese numero 1: </label>
+                        <input type="text" name="operando1" value="" size="12">
+                        <br>
+                        <label>Ingrese numero 2: </label>
+                        <input type="text" name="operando2" value="" size="12">
+                        <br>
+                        <label> Elija una operación: </label>
+                        <br>
+                    </div>
+                    <div class="btns">
+                        <input type="button" name="" value=" + " onclick="calcular('+')">
+                        <input type="button" name="" value=" - " onclick="calcular('-')">
+                        <input type="button" name="" value=" x " onclick="calcular('*')">
+                        <input type="button" name="" value=" / " onclick="calcular('/')">
+                        <input type="button" name="" value=" EXPONENCIA " onclick="calcular('**')">
+                        <input type="button" name="" value=" RESIDUO " onclick="calcular('%')">
+                        <input type="button" name="p1" value=" PORCENTAJE " onclick="PORCENTAJE('*')">
+                    </div>
+                    <br>
+                    <div class="title">
+                        <label>Resultado: </label>
+                        <input type="text" name="resultado" value="" size="12">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Pie de Pagina-->
+    <footer>
+        <div class="footer-info">
+            <div class="redes-sociales"><br>
+                <a href="#" class="fa fa-twitter">&nbspTwitter</a>
+                <a href="#" class="fa fa-facebook">&nbspFacebook</a>
+                <a href="#" class="fa fa-instagram">&nbspInstagram</a>
+                <a href="#" class="fa fa-github">&nbspGitHub</a>
+                <p class="derechos-footer">DERECHOS RESERVADOS &copy; 2022 <br>Henry Andres Jurgensen Alzate <br>DESARROLLO WEB/30144</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

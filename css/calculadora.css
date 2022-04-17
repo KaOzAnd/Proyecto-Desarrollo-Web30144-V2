@@ -1,0 +1,46 @@
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.calc {
+    display: grid;
+    grid-template-columns: repeat(2, 75px);
+    grid-template-rows: 160px repeat(5, 60px);
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    display: grid;
+}
+
+.btns {
+    text-align: center;
+    color: #fff;
+}
+
+.btns input {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 30px;
+    font-size: 1em;
+    background-color: #fff9f9;
+    border-color: aqua;
+    border-width: 2.5px;
+}
+
+.btns input:active {
+    background-color: aqua;
+}
